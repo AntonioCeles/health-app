@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Resultado IMC</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Seu IMC é: {{ resultado }}</h1>
+        <p>{{ resultado_chat }}</p>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://img.freepik.com/vetores-premium/logotipo-de-aplicativo-de-saude-simples-como-telefone-de-linha-fina-vermelha_117142-796.jpg" class="img-fluid" alt="App de saúde">
+            </div>
+            <div class="col-md-6">
+                <h3>Melhore sua saúde com nosso aplicativo</h3>
+                <p>Baixe agora o nosso aplicativo de saúde e acompanhe seu progresso de saúde em tempo real.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.healthapp" class="btn btn-primary">Baixar agora</a>
+            </div>
+        <div class="text-center">
+    <a href="{{ url_for('index') }}" class="btn btn-primary">Refazer cálculo</a>
+	</div>
+    </div>
+</body>
+</html>

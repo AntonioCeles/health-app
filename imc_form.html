@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-5">Calcular IMC</h1>
+        <form action="imc" method="POST">
+            <div class="form-group">
+                <label for="altura">Altura (em metros):</label>
+                <input type="text" class="form-control" id="altura" name="altura">
+            </div>
+            <div class="form-group">
+                <label for="peso">Peso (em kg):</label>
+                <input type="text" class="form-control" id="peso" name="peso">
+            </div>
+            <div class="row justify-content-center">
+                <button type="submit" class="btn btn-primary">Calcular</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
